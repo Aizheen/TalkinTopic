@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+.btn-offtopic-container{
+    display: flex;
+    justify-content: end;
+}
+.btn-offtopic{
+    padding: 12px 10px 12px 10px;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: #ff6865ab;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    margin: 20px;
+    margin-right: 25px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+} 
+
+.btn-offtopic:hover{
+    transform: scale(1.1);
+}
